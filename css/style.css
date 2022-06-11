@@ -1,0 +1,69 @@
+body {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-kerning: unset;
+    background-color: bisque;
+
+}
+
+h2 {
+    color:brown;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2cm;
+}
+/*how to comment*/
+/*
+box model- margin-empty space around my element
+padding- empty space with background around my element
+border- a border/stroke around my element
+*/
+p {
+    color:aqua;
+}
+
+.box {
+    background: yellowgreen;
+    width: 300px;
+    margin: 100px;
+    border-width: 5px;
+    border-left-color: red;
+    border-left-style: dotted;
+
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: blue;
+    padding: 100px 50px 50px 25px;
+    /*top right bottom left (clockwise)*/
+}
+
+.box-2 {
+    background: yellowgreen;
+    width: 300px;
+    margin: 100px;
+    border-width: 5px;
+    border-left-color: red;
+    border-left-style: dotted;
+
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: blue;
+    padding: 100px 50px 50px 25px;
+    
+}
+
+.box-3 {
+    background: yellowgreen;
+    width: 300px;
+    margin: 100px;
+    border-width: 5px;
+    border-left-color: red;
+    border-left-style: dotted;
+
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: blue;
+    padding: 100px 50px 50px 25px;
+    background-image: url(../img/beach-5b59c9b7c9e77c004b3e0ff0.jpg);
+    background-size: contain;
+}
